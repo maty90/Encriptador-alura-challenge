@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:  #F3F5FC;
+}
+
+main{
+    display:flex;
+    position: absolute;
+    width: 95%;
+    height: 500px;
+    border-radius: 10px; 
+    padding-left: 20px;
+}
+
+.logo{
+    top: 100px;
+    left: 60px;
+    margin: 40px 40px 0 40px;
+}
+
+
+
+
+.escribir-texto{
+    width: 50%;
+    height: 600px;
+}
+
+
+.encriptar, .desencriptar{
+    border-style: none;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 90px;
+    
+   
+}
+
+.rectangulo-copiar{
+    background: white;
+    border: 0;
+    outline: none;
+    width: 30%;
+    height: 600px;
+    margin-left: 200px;
+    border-radius: 15px;
+    padding-top: 5px;
+    
+   
+}
+
+.munieco{
+    width: 80%;
+    padding: 20px;
+}
+
+.mensaje{
+    margin-left: 20px;
+    border:0;
+    outline: none;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: rgb(33, 33, 107);
+    background-image: url(./imagenes/Muñeco.png);
+    background-repeat: no-repeat;  
+    background-position-y: center;
+    
+}
+
+.rectangulo-copiar p{
+    text-align: center;
+    font-family:'Inter', sans-serif; 
+    font-size: 24px;
+    color: rgb(33, 33, 107);
+    outline: none;
+    
+    
+}
+
+.copiar{
+    width: 200px;
+    height: 67px;
+    border-radius: 22px;
+    color: rgb(37, 37, 133);
+    font-family:'Inter', sans-serif; 
+    font-size: 20px;
+    margin-left: 110px;
+    
+}
+
+.input-texto{
+    width: 100vw;
+    height: 400px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: rgb(33, 33, 107);
+    border-style: none;
+    background-color: #F3F5FC ;
+    border-color: none;
+    border: 0;
+    outline: none;
+}
+
+header{
+    background-color: #F3F5FC;
+   width: 100vw;
+}
+
+
+
+
+
+   
+
