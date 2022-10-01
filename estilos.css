@@ -28,10 +28,12 @@ main{
 }
 
 
+
+
 .encriptar, .desencriptar{
     border-style: none;
     padding-left: 20px;
-    position: relative;
+
     margin-top: 90px;
     
    
@@ -111,6 +113,13 @@ main{
 header{
     background-color: #F3F5FC;
    width: 100vw;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 
